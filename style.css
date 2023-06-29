@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#head{
+    background: linear-gradient(to right,black,red);
+}
+span{
+    color: white;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#blog{
+    background-image: url(/elegant-background-wallpaper-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 88vh;
+}
+nav{
+    color: blanchedalmond;
+    display: flex;
+    
+}
+a:link{
+    text-decoration: none;
+    
+}
+#navigation a{
+    
+    background-color: aliceblue;
+   padding: 30px;
+   width: 70px;
+  
+   text-align: center;
+}
+#navigation a:hover{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+    background: 1px solid red;
+}
+#navigation a:active{
+    background-color: blueviolet;
+    color: chocolate;
+}
+#navigation{
+    padding-top: 30px;  
+display: flex;
+flex-direction: row;
+margin: auto;
+}
+img{
+    border-radius: 600px;
+    background-position: center;
+}
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bot{
+background:radial-gradient(red ,black 90%);
+}
+#par{
+    padding-top: 10px;
+    font-size: larger;
+    color: cornsilk;
+}
+h3{
+    color: bisque;
+    text-align: center;
+    text-shadow: 3px 3px rgb(0, 0, 0) ;
+}
+#para{
+    color:ghostwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    padding-top: 30px;
+}
